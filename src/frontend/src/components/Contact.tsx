@@ -154,9 +154,9 @@ export function Contact() {
             </div>
             <div className="space-y-4">
               {[
-                { icon: Mail, label: "Email", value: "hello@gnuciferlabs.com" },
-                { icon: Phone, label: "Phone", value: "+91 98765 00000" },
-                { icon: MapPin, label: "Location", value: "Bengaluru, India" },
+                { icon: Mail, label: "Email", value: "gnuciferlabs@gmail.com" },
+                { icon: Phone, label: "Phone", value: "+91 7404082180" },
+                { icon: MapPin, label: "Location", value: "Jind, Haryana" },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center">
